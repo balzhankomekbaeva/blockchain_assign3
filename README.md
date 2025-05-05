@@ -5,11 +5,11 @@ A free-tier compatible AI assistant that answers questions based strictly on the
 ---
 
 ## 🔧 Usage
-
-1. **Install dependencies**  
+1.Install dependencies  
    Ensure you have Python installed. Then install requirements:
    ```bash
    pip install -r requirements.txt
+```
 2.Set up environment variables
 Create a .env file with your HuggingFace API Token:
   ```bash
@@ -19,7 +19,7 @@ HUGGINGFACEHUB_API_TOKEN=your_token_here
   ```bash
 streamlit run app.py
 ```
-Using the app
+## Using the app
 
   Click "🔄 Load Constitution" to fetch the Constitution from the official government website.
 
@@ -28,10 +28,12 @@ Using the app
   Ask questions in the chat box.
 
   The assistant will respond with short answers strictly based on the documents.
-📸 Demo Screenshots
+  
+## 📸 Demo Screenshots
+![image](https://github.com/user-attachments/assets/59cec611-d9a2-4c7c-886f-a9235b8d6167)
+![image](https://github.com/user-attachments/assets/e49bb0ac-265c-4063-b471-3f5bec6ca9b1)
 
-
-🧠 Examples
+## 🧠 Examples
 Q: What is the official language of the Republic of Kazakhstan?
 A: The official language is Kazakh.
 
