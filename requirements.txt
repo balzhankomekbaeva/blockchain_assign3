@@ -1,0 +1,10 @@
+streamlit
+langchain>=0.1.0
+langchain-community>=0.0.24
+langchain-text-splitters>=0.0.1
+chromadb
+huggingface-hub
+sentence-transformers
+python-dotenv
+docx2txt
+PyMuPDF  # for PyPDFLoader
